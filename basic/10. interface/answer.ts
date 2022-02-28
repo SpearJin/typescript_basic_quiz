@@ -41,7 +41,6 @@
     plus: (a: number, b: number) => number;
     minus: (a: number, b: number) => number;
   }
-
   let oper: Operator = {
     plus(a, b) {
       return a + b;
